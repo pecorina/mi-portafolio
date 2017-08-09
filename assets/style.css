@@ -5,14 +5,26 @@
 }
 
 .portada{
+  width: 1000px
+  margin-top: 50px;
+  color:  #696969;
+
+}
+.portass{
   margin-top: 20px;
+}
+
+.mimi{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+
 }
 
 /*estilos imagenes circulares*/
 
 .conti{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   position: absolute;
   margin: 0 auto;
   top: 20px;
@@ -44,7 +56,7 @@
   -o-transition: all 500ms ease-in-out;
 }
 .div-img .text {
-  font-family: 'Open Sans';
+  font-family: 'Leckerli One', cursive;
   position: absolute;
   z-index: -1;
   display: block;
@@ -62,19 +74,36 @@
 }
 
 .perfil{
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 200px;
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 
 /*sobre m i*/
 
-.sobremi{
-   margin-left: 159px;
+#sobremi{
+   margin: 0;
    margin-top: 300px;
    font-size: 25px;
+   background-color: #FFA07A;
+   width: 100%;
+   height: 500px;
+}
+.yio{
+  font-family: 'Rochester', cursive;
+  margin-left: 200px;
+
+}
+.yo{
+   margin-left: 150px;
+}
+
+.dis{
+   width: 300px;
+   margin-left: 20px;
 }
