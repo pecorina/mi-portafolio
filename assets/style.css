@@ -1,30 +1,40 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Amatic SC', cursive;
 }
 
+.collapse{
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-family: 'Rochester', cursive;
+  font-size: 30px;
+}
 .portada{
   width: 1000px
-  margin-top: 50px;
+  margin-top: 80px;
   color:  #696969;
 
 }
 .portass{
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 .mimi{
   font-family: 'Amatic SC', cursive;
   font-size: 50px;
-
+  margin-top: 60px;
 }
-
+.text{
+  font-size: 30px;
+}
 /*estilos imagenes circulares*/
 
 .conti{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   position: absolute;
   margin: 0 auto;
   top: 20px;
@@ -56,12 +66,12 @@
   -o-transition: all 500ms ease-in-out;
 }
 .div-img .text {
-  font-family: 'Leckerli One', cursive;
+  font-family: 'Amatic SC', cursive;
   position: absolute;
   z-index: -1;
   display: block;
   height: 50%;
-  top: 50%;
+  top: 28%;
   right: 0;
   padding-right: 5px;
 }
@@ -101,9 +111,58 @@
 }
 .yo{
    margin-left: 150px;
+   font-family: 'Amatic SC', cursive;
+}
+ /*herramienta*/
+.herramientas{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.ramienta{
+  margin-bottom: 60px;
+}
+
+
+.disis{
+  height: 70px;
 }
 
 .dis{
-   width: 300px;
-   margin-left: 20px;
+   height: 100px;
+}
+#program{
+  margin-top: 50px;
+}
+
+
+.bonus{
+  background-image: url(../img/design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 30px;
+  height: 500px;
+ } 
+ /*portafolio*/
+
+
+.folio{
+  width: 300px;
+  height: 300px;
+}
+
+
+/*pie de pagina*/
+#linke{
+  width: 30px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+
 }
