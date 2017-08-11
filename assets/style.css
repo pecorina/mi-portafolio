@@ -16,10 +16,13 @@
   width: 1000px
   margin-top: 80px;
   color:  #696969;
-
 }
 .portass{
   margin-top: 0;
+}
+
+#working{
+  margin-left: 70px;
 }
 
 .mimi{
@@ -89,11 +92,12 @@
   border-radius: 200px;
   -webkit-border-radius: 200px;
   -moz-border-radius: 200px;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 100px;
+  margin-top: 100px;
 }
-
-
+.ese{
+  width: 100px;
+}
 /*sobre m i*/
 
 #sobremi{
@@ -104,6 +108,9 @@
    width: 100%;
    height: 500px;
 }
+#parrafo{
+  margin-top: 70px;
+}
 .yio{
   font-family: 'Rochester', cursive;
   margin-left: 200px;
@@ -112,9 +119,20 @@
 .yo{
    margin-left: 150px;
    font-family: 'Amatic SC', cursive;
+   margin-top: 10px;
+
 }
+
+.otro{
+  margin-left: 200px;
+}
+#int{
+  margin-left: 30px;
+}
+
  /*herramienta*/
-.herramientas{
+
+#herramientas{
   margin-left: 50px;
   margin-top: 50px;
 }
@@ -122,8 +140,6 @@
 .ramienta{
   margin-bottom: 60px;
 }
-
-
 .disis{
   height: 70px;
 }
@@ -133,29 +149,40 @@
 }
 #program{
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 
 .bonus{
-  background-image: url(../img/design.jpg);
+  background-image: url(../img/escritorio.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  font-size: 30px;
   height: 500px;
  } 
+
+.pum{
+  color: black;
+  font-size: 80px;
+  margin-top: 225px;
+}
+ 
  /*portafolio*/
 
-
 .folio{
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
 }
 
 
 /*pie de pagina*/
 #linke{
-  width: 30px;
+  width: 70px;
+}
+
+#contacto{
+   margin-top: 30px;
+   margin-bottom: 50px;
 }
 
 footer{
