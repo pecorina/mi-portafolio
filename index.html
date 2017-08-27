@@ -10,61 +10,53 @@
   <script src="https://use.fontawesome.com/d1388a0a18.js"></script>
   <!--tipografias-->
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Leckerli+One|Rochester" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Roboto+Condensed" rel="stylesheet">
   <!--css-->
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top" >Pecorina</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#working">Aptitudes</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#sobremi">Sobre Mi</a>
-                    </li>
-                      <li>
-                        <a class="page-scroll" href="#herramientas">Herramientas</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portafolio">Portafolio</a>
-                    </li>
-                    
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<!-- navbar, hamburguesa-->
+<section class="menunav">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="topNav" class="navigation">
+            <span id="closebtn" onclick="navToggle()">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </span>      
+            <ul class="menulist">
+                <li><a class="menuitems" href="#home">HOME</a></li>   
+                <li><a class="menuitems" href="#sobremi">Sobre Mi</a></li> 
+                <li><a class="menuitems" href="#herramientas">Herramientas</a></li>
+                <li><a class="menuitems" href="#porta">Portafolio</a></li>
+                <li><a class="menuitems" href="#contacto">Contacto</a></li>
+            </ul>     
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
+        <div id="main"></div>
+      </div>
+    </div>
+  </div>  
+</section>
 
 <!--seccion portada-->
+<section id="home">
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
       <div class="portada">
         <h2 class="mimi">Constanza Pecori Toloza</h2>
-        <h1>PROTOTYPER</h1>
+        <h1>GRAFIC DESIGN  &  PROTOTYPE</h1>
         <img class="portass" width="100%" src="img/portadaa.png">
         <hr> <hr>
       </div>
     </div>
   </div>
 </div>
-
-
 
 <!--seccion mis trabajos-->
 
@@ -101,8 +93,9 @@
           </div>
         </div>
       </div> 
-  
- </div>
+  </div>
+ </section>
+
 </section>
 
 <!--sobre mi-->
@@ -114,8 +107,7 @@
         <h1 class="yio">Sobre Mi</h1>
         <p class="yo">Mi nombre es Constanza Pecori Toloza, Diseñadora Gráfica, aficionada a la fotografía, manualidades y la tecnología.  Me considero una persona paciente, tolerante, leal, proactiva y muy creativa siempre me ha gustado innovar en el area de diseño directamente al cliente, ahora que domino esta nueva area deseo entregar soluciones prácticas para los usuarios e innovar con servicios inclusivos</p>
         <p class="otro"> Otros Intereses
-        <i id="int" class="fa fa-camera-retro" aria-hidden="true"></i>
-        <i id="int" class="fa fa-coffee" aria-hidden="true"></i>
+         <!--aqui van imagenes-->
         </p>
 
       </div>
@@ -145,17 +137,22 @@
            <img src="img/sublime.png" class="dis">
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+
+      <div class="dos row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
            <img src="img/sass.png" class="disis">
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
            <img src="img/bootstrap.png" class="dis">
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
+           <img src="img/materialize-logo-0FCAD8A6F8-seeklogo.com.png" class="mat">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
            <img src="img/gulp.png" class="dis">
         </div>
       </div>
+
       <div id="program" class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
            <img src="img/HTML.png" class="disis">
@@ -173,61 +170,58 @@
     </div>   
 </section>
 
-<div class="bonus">
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-xs-12 text-center">
-       <h1 class="pum">PORTAFOLIO</h1>
+<div class="porta">
+    <div class="bonus">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 text-center">
+           <h1 class="pum">PORTAFOLIO</h1>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<section id="portafolio">
-  <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2>Portafolio</h2>
-        </div>
+    <section id="portafolio">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+              <a href="https://pecorina.github.io/proyect-tea-lovers/">
+                <img class="folio" src="img/telov.png">
+              </a>
+              <h2>Tea Lovers</h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+              <a href="https://github.com/pecorina/labcar">
+                <img class="folio" src="img/lab.png">
+              </a>
+              <h2>Trans-Lab</h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+              <a href="https://pecorina.github.io/dobby-spa/">
+                <img class="folio" src="img/doby.jpg">
+              </a>
+              <h2>Dobby Spa</h2>
+            </div>
+          
+          </div>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-          <a href="https://pecorina.github.io/proyect-tea-lovers/">
-            <img class="folio" src="img/telov.png">
-          </a>
-          <h2>Tea Lovers</h2>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-          <a href="https://github.com/pecorina/labcar">
-            <img class="folio" src="img/lab.png">
-          </a>
-          <h2>Trans-Lab</h2>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-          <a href="https://pecorina.github.io/dobby-spa/">
-            <img class="folio" src="img/doby.jpg">
-          </a>
-          <h2>Dobby Spa</h2>
-        </div>
-      
-      </div>
-  </div>
-</section>
+    </section>
+</div>
 
 <section id="contacto">
   <div class="row">
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
-      <i class="fa fa-linkedin-square" aria-hidden="true" width="50px"></i>
+      <a href="https://www.linkedin.com/in/constanza-pecori-toloza-571a24145/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
       <h3>Linkedin/ConstanzaPecori</h3>
     </div>
     <div id="ese" class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
-      <i id="ese" class="fa fa-github" aria-hidden="true" width="50px"></i>
+      <a href="https://github.com/pecorina"><i id="ese" class="fa fa-github" aria-hidden="true"></i></a>
       <h3>Github/Pecorina</h3>
     </div>
      <div id="ese" class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
-      <i class="fa fa-behance" aria-hidden="true" width="50px"></i>
+      <a href="https://www.behance.net/constanzap6e08"><i class="fa fa-behance" aria-hidden="true"></i></a>
       <h3>Behance/constanzapecori</h3>
     </div>
      <div id="ese" class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center">
-      <i class="fa fa-envelope-open" aria-hidden="true" width="50px" ></i>
+      <a href="https://plus.google.com/u/0/103290928268487954239"><i class="fa fa-envelope-open" aria-hidden="true"></i></a>
       <h3>constanza.pecori@gmail.com</h3>
     </div>
   </div>
@@ -242,6 +236,7 @@
     </div>
    </div>
 </footer>
-	
+
+<script src="assets/js/main.js"></script>	
 </body>
 </html>

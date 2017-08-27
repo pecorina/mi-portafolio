@@ -4,14 +4,130 @@
   font-family: 'Amatic SC', cursive;
 }
 
-.collapse{
-  font-size: 20px;
+/*nav*/
+.menunav{
+    overflow:hidden;
+    transition: background-color .5s;
+    font-family: 'PT Sans', sans-serif;
 }
 
-.navbar-brand{
-  font-family: 'Rochester', cursive;
-  font-size: 30px;
+.navigation {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    margin:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 4px 4px -3px #232323;
+    -moz-box-shadow: 0 4px 4px -3px #232323;
+    -webkit-box-shadow: 0 4px 4px -3px #232323;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+    padding-top: 0px;
 }
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation ul {
+    margin-top:30px;
+    text-align:center;
+    list-style:none; 
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.menulist {
+  width:200px;
+  height: 300px;
+}
+
+.line1, .line2, .line3 {
+  margin-top:5px;
+  background-color:#fff;
+  width:25px;
+  height:3px;
+  display:block;
+  position:relative;
+  opacity:1.0;
+  border-radius:15%;
+  transition: all .3s;
+}
+
+.line1.active {
+  transform: rotate(270deg);
+  opacity:0.0;
+  background-color:yellow;
+  top:5px;
+}
+
+.line2.active {
+  transform: rotate(45deg);
+  background-color:yellow;
+}
+
+.line3.active {
+  transform: rotate(-45deg);
+  background-color:yellow;
+  top:-7px;
+}
+
+.menuitems {
+    padding-top:9px;
+    padding-bottom:0px;
+    text-decoration: none;
+    list-style:none; 
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    display: inline-block;
+    position:relative;  
+    text-align:center;
+    color: #F08080;
+    opacity:0.0;
+    transition: all .5s ease-in-out;
+}
+
+.menuitems:after {
+  content:'';
+  display:block;
+  width: 0;
+  height: 1px;
+  background: #fff;
+  transition: width .2s;
+}
+
+.menuitems:hover::after {
+    width:100%;
+}
+
+#closebtn {
+    height:25px;
+    width:25px; 
+    position: absolute;
+    text-decoration:none;
+    top: 10px;
+    font-size: 36px !important;
+    margin-left: 1200px;
+    z-index:100;
+    color:#fff;
+    cursor:pointer;
+    trainsition:background-position .3s;
+}
+#main { 
+    transition: margin-top .4s;
+    text-align:center;
+    margin:auto;
+    padding: 16px;
+    font-size:30px;
+}
+
+/*fin nav*/
+
+
 .portada{
   width: 1000px
   margin-top: 80px;
@@ -108,6 +224,8 @@
    background-color: #FFA07A;
    width: 100%;
    height: 500px;
+
+
 }
 #parrafo{
   margin-top: 70px;
@@ -119,7 +237,8 @@
 }
 .yo{
    margin-left: 150px;
-   font-family: 'Amatic SC', cursive;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 20px;
    margin-top: 10px;
 
 }
@@ -148,17 +267,24 @@
 .dis{
    height: 100px;
 }
+.mat{
+   height: 80px;
+}
 #program{
   margin-top: 50px;
   margin-bottom: 30px;
+  font-weigth: 20px;
+}
+.dos{
+  margin-top: 30px;
 }
 
-
 .bonus{
-  background-image: url(../img/escritorio.jpeg);
+ 
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
+  width: 100%;
  } 
 
 .pum{
@@ -182,8 +308,13 @@
 }
 
 #contacto{
-   margin-top: 30px;
+   margin-top: 80px;
    margin-bottom: 50px;
+}
+
+.fa{
+   font-size: 100px;
+   color: #FFA07A;
 }
 
 footer{
